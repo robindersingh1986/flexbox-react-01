@@ -1,0 +1,19 @@
+h1,
+p {
+  font-family: Lato;
+}
+.container {
+  display: flex;
+
+  /* justify-content: center; */
+  align-content: center;
+  /* align-items: center; */
+}
+section {
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #900;
+}
+.content {
+  flex-grow: 3;
+}
